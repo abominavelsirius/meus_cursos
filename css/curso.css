@@ -1,3 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+/* font-family: 'Fresca', sans-serif; */
+
+
+
 body {
-    
+    margin: 0;
+    padding: 0;
+    font-family: 'Fresca', sans-serif;
+    background: rgb(98, 107, 114);
+    height: 10000px;
+}
+
+/* -----------------------------------------  Cabeçalho  ---------------------------------------------------------------------------------------------- */
+
+.cabecalho {
+    background: linear-gradient(to bottom, black, #2d2d2d);
+}
+
+h1 {
+    margin: 0;
+}
+
+.logo {
+    padding: 10px 0 0 230px;
+    width: 100px;
+}
+
+.relative {
+    position: relative;
+}
+
+.navegacao {
+    display: inline-block;
+    color: #DEDEDA;
+    right: 600px;
+    top: 0;
+    position: absolute;
+}
+
+.navegacao li {
+    display: inline-block;
+    padding: 25px 10px;   
+    font-size: 24px;
+}
+
+.navegacao a:hover {
+    color: #ffbf00;
+
+}
+
+a {
+    color: #DEDEDA;
+}
+
+
+
+/* -----------------------------------------  Main  ---------------------------------------------------------------------------------------------- */
+
+.principal {
+    width: 940px;
+    margin: 0 auto;
+    background: rgb(34, 38, 41);
+    height: 600px;
+}
+
+
+
+.item {
+    display: inline-block;
+    padding: 0 50px;
+}
+
+.curso {
+    width: 300px;
+    transition: 0.5s;
+}
+
+
+.curso:hover {
+    width: 295px;
 }

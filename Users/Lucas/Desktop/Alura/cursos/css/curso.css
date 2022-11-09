@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+/* font-family: 'Fresca', sans-serif; */
+
+
+body {
+    font-family: 'Fresca', sans-serif;
+}
+
+
+
+header {
+    background: rgb(89, 89, 122);
+
+}
+
+
+
+nav {
+    background-color: rgb(148, 122, 122);
+}
+
+
+main {
+    background: rgb(34, 38, 41);
+}
+
+.curso {
+    width: 200px;
+}

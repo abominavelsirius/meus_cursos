@@ -1,0 +1,68 @@
+/* diminuir a largura do conteúdo da página para 940px
+Para que o conteúdo não fique colado no canto da página, afaste ele dos cantos direito e esquerdo da tela, até que fique centralizado.
+criar um espaço de respiro interno de 10px para o conteúdo do título principal
+criar um espaço de respiro interno de 15px para o conteúdo das figuras
+afastar 30px as figuras dos cantos da tela e das caixas que vêm antes e depois delas
+dentro das figuras, afastar 10px a legenda da imagem
+A página ficará assim: */
+
+body {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3D3D3D;
+    background-image: url(./img/aa.png);
+}
+
+.titulo {
+    padding: 10px;
+    background-color: #E1EDF2;
+    border: 1px solid rgb(53, 7, 7);
+}
+
+.subtitulo {
+    border-bottom: 2px solid black;
+}
+
+figure {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+.figure1 {
+    width: 550px;
+    margin-left: 107px;
+    padding: 28px;
+    border: 1px solid black;
+}
+
+
+.figure2 {
+    margin-top: 10px;
+    width: 275px;
+    float: right;
+    background-image: url(./img/mine.png);
+}
+
+
+
+figure img {
+    width: 50%;
+}
+
+
+
+
+figcaption strong {
+    color: rgb(85, 173, 27);
+    background-color: black;
+}
+

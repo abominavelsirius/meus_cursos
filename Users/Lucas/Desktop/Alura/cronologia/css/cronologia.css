@@ -1,0 +1,45 @@
+body {
+    background-color: #141414;
+}
+
+
+/* --------------------------------------------bloco1---------------------------------- */
+.fotos {
+    width: 940px;
+    margin: 0 auto;
+    background: linear-gradient(#141414 75%, rgb(20, 20, 20, 0));
+}
+
+.bloco-1 {
+    width: 940px;
+    border: 1px solid rgb(255, 0, 0);
+    background: rgb(138, 131, 131);
+}
+
+
+.img {
+    display: inline-block;
+    float: left;
+    width: 200px;
+    transition: 0.5s;
+}
+
+
+.img:hover {
+    width: 230px;
+}
+
+p {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0 7px 210px;
+}
+
+
+
+
+/* --------------------------------------------bloco2---------------------------------- */
+
+.bloco-2 {
+    clear: left;
+}

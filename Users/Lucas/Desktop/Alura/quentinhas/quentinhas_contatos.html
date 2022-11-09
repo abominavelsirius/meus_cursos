@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css"
+            href="./css/contato_quentinhas.css">
+        <link rel="stylesheet" href="./css/reset.css">
+        <meta charset="UTF-8">
+        <title>Contatos</title>
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="caixa">
+                <h1><img src="./img/quentinhas_produtos/Artboard1.png" alt="logo
+                        quentinha"></h1>
+
+                <nav>
+                    <ul class="navegacao">
+                        <li><a href="./quentinhas.html">Home</a></li>
+                        <li><a href="./quentinhas_produtos.html">Produtos</a></li>
+                        <li><a href="./quentinhas_contatos.html">Contatos</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+
+        </header>
+
+
+        <main>
+
+            <form>
+
+                <fieldset>
+
+                    <label for="nomesobrenome">Nome e Sobrenome</label>
+                    <input type="text" id="nomesobrenome" class="input-padrao"
+                        required placeholder="Escreva seu nome completo.">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="input-padrao" required
+                        placeholder="nome@dominio.com">
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" class="input-padrao"
+                        required placeholder="(XX) XXXX-XXXX">
+                    <textarea cols="70" rows="10" class="input-padrao" required
+                        placeholder="Escreva um comentário."></textarea>
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Como prefere nosso contato?</legend>
+
+                    <label for="radio-telefone"><input type="radio"
+                            name="radio-contato"
+                            id="radio-telefone"> Telefone</label>
+
+                    <label for="radio-wpp"><input type="radio"
+                            name="radio-contato" id="radio-wpp"> Whatsapp</label>
+                    <label for="radio-email"><input type="radio"
+                            name="radio-contato" id="radio-email" checked> Email</label>
+                </fieldset>
+
+                <label><input type="checkbox" name="checkbox-email" id="email"
+                        checked>Gostaria
+                    de receber nossas novidades por email?</label>
+
+
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+
+                </fieldset>
+
+
+
+
+                <input type="submit" value="Enviar Formulário" class="enviar">
+            </form>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>11h ~ 14h</td>
+                    </tr>
+
+                    <tr>
+                        <td>Quarta</td>
+                        <td>11h ~ 14h</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sexta</td>
+                        <td>11h ~ 14h</td>
+                    </tr>
+                </tbody>
+
+
+            </table>
+
+
+
+        </main>
+
+
+
+        <footer>
+            <img src="./img/quentinhas_produtos/backs.png" alt="">
+            <p class="copyright">&copy; Copyright Quentinhas da DRICA - 2020</p>
+        </footer>
+
+
+
+    </body>
+</html>

@@ -68,15 +68,21 @@ a {
 
 .item {
     display: inline-block;
-    padding: 0 50px;
 }
+
+.lista-curso {
+    padding: 0 10px;
+
+}
+
 
 .curso {
     width: 300px;
-    transition: 0.5s;
+    transition: 0.5s all;
 }
 
 
 .curso:hover {
-    width: 295px;
+    width: 293px;
+    border: 1px solid rgb(185, 24, 24);
 }

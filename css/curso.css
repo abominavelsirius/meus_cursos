@@ -83,23 +83,32 @@ a {
 .formacao {
     width: 100px;
     transition: 0.5s all;
-    padding: 30px 20px;
-    padding: 0 50px;
+    /* padding: 30px 20px; */
+    padding: 0 50px;;
+    float: left;
 }
+
+
+
+.img {
+    width: 65px;
+    float: left;
+}
+
+.h3 {
+    width: 105px;
+    padding: 6px 0 0 70px;
+    margin: 0;
+}
+
+
 
 
 .formacao:hover {
     width: 95px;
-    border: 1px solid rgb(185, 24, 24);
 }
 
-.lista-formacao p {
-    display: none;
-}
 
-.lista-formacao p:hover {
-    display: block;
-}
 
 
 
@@ -108,7 +117,7 @@ a {
 
 
 .lista-curso {
-    padding: 0 10px;
+    padding: 5px 10px;
 
 }
 
@@ -116,7 +125,7 @@ a {
 /* tá nas imagens*/
 .curso {
     width: 300px;
-    transition: 0.5s all;
+    transition: 0.2s all;
 }
 
 

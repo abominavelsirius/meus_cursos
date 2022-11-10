@@ -88,7 +88,22 @@ a {
     float: left;
 }
 
+.teste {
+    background: red;
+    height: 66px;
+    position: relative;
+}
 
+.absolute {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    opacity: 0.3;
+}
+
+.teste:hover, .absolute:hover {
+    opacity: 1;
+}
 
 .img {
     width: 65px;

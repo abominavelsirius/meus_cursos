@@ -15,6 +15,7 @@ body {
 
 .cabecalho {
     background: linear-gradient(to bottom, black, #2d2d2d);
+    width: 100%;
 }
 
 h1 {
@@ -24,18 +25,16 @@ h1 {
 .logo {
     padding: 10px 0 0 230px;
     width: 100px;
-}
-
-.relative {
-    position: relative;
+    float: left;
 }
 
 .navegacao {
     display: inline-block;
     color: #DEDEDA;
-    right: 600px;
+    margin: 10px 100px;
+    /* right: 600px;
     top: 0;
-    position: absolute;
+    position: absolute; */
 }
 
 .navegacao li {
@@ -57,18 +56,6 @@ a {
 
 /* -----------------------------------------  Main  ---------------------------------------------------------------------------------------------- */
 
-
-/* -----------------------------------------  Formações  ---------------------------------------------------------------------------------------------- */
-
-.formacoes {
-    background: rgb(87, 70, 70);
-    height: 100px;
-}
-
-
-
-/* -----------------------------------------  Cursos  ---------------------------------------------------------------------------------------------- */
-
 .principal {
     width: 940px;
     margin: 0 auto;
@@ -77,10 +64,39 @@ a {
 }
 
 
-
 .item {
     display: inline-block;
 }
+
+/* -----------------------------------------  Formações  ---------------------------------------------------------------------------------------------- */
+
+.formacoes {
+    background: rgb(87, 70, 70);
+    height: 300px;
+}
+
+.iniciante-logo {
+    width: 350px;
+    padding: 30px 20px;
+}
+
+.formacao {
+    width: 100px;
+    transition: 0.5s all;
+    padding: 30px 20px;
+}
+
+
+.formacao:hover {
+    width: 200px;
+    border: 1px solid rgb(185, 24, 24);
+}
+
+
+
+/* -----------------------------------------  Cursos  ---------------------------------------------------------------------------------------------- */
+
+
 
 .lista-curso {
     padding: 0 10px;
@@ -88,6 +104,7 @@ a {
 }
 
 
+/* tá nas imagens*/
 .curso {
     width: 300px;
     transition: 0.5s all;

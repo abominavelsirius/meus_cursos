@@ -39,7 +39,7 @@ h1 {
 
 .navegacao li {
     display: inline-block;
-    padding: 25px 10px;   
+    padding: 25px 10px;
     font-size: 24px;
 }
 
@@ -68,27 +68,30 @@ a {
     display: inline-block;
 }
 
-/* -----------------------------------------  teste ---------------------------------------------------------------------------------------------- */
 
-.teste {
-    background: rgb(255, 255, 255);
+/* -----------------------------------------  Formações  ---------------------------------------------------------------------------------------------- */
+
+
+
+.formacao1 {
+    background: #FCFFF5;
     height: 66px;
     position: relative;
 }
 
 
-.img {
+.formacao_img {
     width: 65px;
     float: left;
 }
 
-.h3 {
+.formacao_h3 {
     width: 105px;
-    padding: 6px 0 0 70px;
+    padding: 23px 0 0 70px;
     margin: 0;
 }
 
-.absolute {
+.formacao_absolute {
     position: absolute;
     top: 10px;
     left: 200px;
@@ -98,44 +101,30 @@ a {
     opacity: 0.5;
 }
 
-.icon_curso:hover{
+.icon_curso:hover {
     opacity: 1;
 }
 
 
-
-
-
-/* -----------------------------------------  Formações  ---------------------------------------------------------------------------------------------- */
-
-
-
-.formacoes {
-    background: rgb(87, 70, 70);
-    height: 300px;
+.formacao2 {
+    background: #FCFFF5;
+    height: 66px;
+    position: relative;
 }
 
-.iniciante-logo {
-    width: 350px;
-    padding: 30px 20px;
-}
-
-.formacao {
-    width: 100px;
-    transition: 0.5s all;
-    /* padding: 30px 20px; */
-    padding: 0 50px;;
+.formacao2_img {
+    margin: 30px 0 0 0;
+    width: 65px;
     float: left;
 }
 
-
-
-
-
-
-.formacao:hover {
-    width: 95px;
+.formacao_2h3 {
+    width: 105px;
+    padding: 50px 0 0 114px;
+    margin: 0;
 }
+
+
 
 
 

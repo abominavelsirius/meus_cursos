@@ -105,8 +105,7 @@ a {
     opacity: 1;
 }
 
-
-
+/* ---------------  Formações2 --------*/
 .formacao2 {
     background: #FCFFF5;
     height: 66px;
@@ -145,8 +144,44 @@ a {
 }
 
 
+/* ---------------  Formações3 --------*/
+
+.formacao3 {
+    background: #FCFFF5;
+    height: 66px;
+    position: relative;
+    margin: 20px 0 0;
+    border: 1px dotted black;
+}
 
 
+.formacao3_img {
+    margin: 0 861px 0 11px;
+    width: 65px;
+    float: left;
+}
+
+
+.formacao_3h3 {
+    width: 105px;
+    padding: 20px 0 0 79px;
+    margin: 0;
+}
+
+
+.formacao3_absolute {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+
+.icon_curso {
+    opacity: 0.5;
+}
+
+.icon_curso:hover {
+    opacity: 1;
+}
 
 
 

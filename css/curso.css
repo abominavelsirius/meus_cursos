@@ -75,7 +75,7 @@ a {
 
 .formacao1 {
     background: #FCFFF5;
-    height: 66px;
+    height: 300px;
     position: relative;
 }
 
@@ -87,7 +87,7 @@ a {
 
 .formacao_h3 {
     width: 105px;
-    padding: 23px 0 0 70px;
+    padding: 13px 0 0 70px;
     margin: 0;
 }
 
@@ -106,23 +106,46 @@ a {
 }
 
 
+
 .formacao2 {
     background: #FCFFF5;
     height: 66px;
     position: relative;
+    margin: 20px 0 0;
+    border: 1px dotted black;
 }
 
+
 .formacao2_img {
-    margin: 30px 0 0 0;
+    margin: 0 0 0 10px;
     width: 65px;
     float: left;
 }
 
+
 .formacao_2h3 {
     width: 105px;
-    padding: 50px 0 0 114px;
+    padding: 20px 0 0 79px;
     margin: 0;
 }
+
+
+.formacao2_absolute {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+
+.icon_curso {
+    opacity: 0.5;
+}
+
+.icon_curso:hover {
+    opacity: 1;
+}
+
+
+
 
 
 

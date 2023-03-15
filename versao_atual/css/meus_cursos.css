@@ -1,0 +1,19 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.conteudoPrincipal {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.conteudoPrincipal-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.conteudoPrincipal-lista-cursos {
+    list-style: none;
+}

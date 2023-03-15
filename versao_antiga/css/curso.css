@@ -129,6 +129,7 @@ a {
     background: #FCFFF5;
     height: 300px;
     position: relative;
+    border: 1px dotted black;
 }
 
 
@@ -215,6 +216,7 @@ a {
 
 
 .formacao_3h3 {
+    height: 10px;
     width: 105px;
     padding: 20px 0 0 79px;
     margin: 0;

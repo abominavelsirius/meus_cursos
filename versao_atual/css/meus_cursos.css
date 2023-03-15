@@ -16,4 +16,5 @@ body {
 
 .conteudoPrincipal-lista-cursos {
     list-style: none;
+    width: 274px;
 }

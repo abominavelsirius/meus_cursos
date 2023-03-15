@@ -1,7 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+/* font-family: 'Golos Text', sans-serif; */
+
+
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Golos Text', sans-serif;
+
 }
+
+/* =========================================== */
+
+.cabecalhoPrincipal {
+    background: rgb(22, 22, 22);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.estudo_logo {
+    width: 4em;
+    padding: 15px 25px;
+}
+
+.cabecalho_links {
+    display: flex;
+    gap: 100px;
+}
+
+.cabecalho_links-link {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.cabecalho_links-link:hover {
+    color: rgb(109, 108, 108);
+}
+
+/* =========================================== */
 
 .conteudoPrincipal {
     width: 1300px;
@@ -17,4 +56,30 @@ body {
 .conteudoPrincipal-lista-cursos {
     list-style: none;
     width: 274px;
+    transition: 0.5s;
+}
+
+.conteudoPrincipal-cursos-link-img {
+    width: 274px;
+    transition: 0.2s;
+}
+
+.conteudoPrincipal-cursos-link-img:hover {
+    width: 300px;
+}
+
+/* =========-=--===============-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.curso_data_lista-icon {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.icon-acessibilidade-data {
+    opacity: 0;
+}
+
+.icon-acessibilidade-data:hover {
+    opacity: 1;
 }

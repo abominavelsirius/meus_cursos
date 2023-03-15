@@ -73,7 +73,16 @@ body {
 .curso_data_lista-icon {
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
+    list-style: none;   
+}
+
+.icon-data-img {
+    width: 43px;
+    transition: 0.5s;
+}
+
+.icon-data-img:hover {
+    width: 53px;
 }
 
 .icon-acessibilidade-data {

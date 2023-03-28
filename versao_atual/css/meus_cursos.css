@@ -70,10 +70,34 @@ body {
 
 /* =========-=--===============-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 
+/* .curso_data {
+    background-color: rgb(22, 22, 22);
+    color: white;
+} */
+
+.curso_data_titulo {
+    background: rgb(22, 22, 22);
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .curso_data_lista-icon {
     display: flex;
     flex-wrap: wrap;
     list-style: none;   
+}
+
+.icon-data {
+    gap: 10px;
+    display: flex;
+    padding: 50px;
+}
+
+.data {
+
 }
 
 .icon-data-img {
@@ -92,3 +116,5 @@ body {
 .icon-acessibilidade-data:hover {
     opacity: 1;
 }
+
+
